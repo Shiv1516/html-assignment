@@ -334,37 +334,7 @@ table {
     #1cd8d2 100%
   );
 }
-.bg-grdnt-02 {
-  background-image: linear-gradient(-45deg, #ff8008, #ffc837, #ff8008, #ffc837);
-  background-size: 400% 400%;
-  animation: btn-bg-ani 3s ease infinite;
-}
-.bg-grdnt-03 {
-  background-image: linear-gradient(165deg, #1b1b1b 40%, #8aa82f 100%);
-}
-.bg-img-04 {
-  background: linear-gradient(
-      165deg,
-      rgba(27, 27, 27, 0.6) 30%,
-      rgba(77, 46, 16, 0.6) 100%
-    ),
-    url(images/banner-bg-01.jpg) no-repeat center/cover;
-}
-.bg-img-08 {
-  min-width: calc(100% - 32px);
-  max-width: calc(100% - 32px);
-}
-.bg-img-08:after {
-  background-image: url(images/testimonial-banner.jpg);
-  background-position: left 12px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 50%;
-  border-radius: 1px 1px 1px 10vw;
-}
+
 @keyframes btn-bg-ani {
   0% {
     background-position: 0 50%;
@@ -1050,6 +1020,9 @@ table {
 .service-button:hover {
   transform: perspective(200px) rotateY(15deg);
 }
+.seed-icon {
+  top: 20%;
+}
 .nav-item:after {
   content: "";
   position: absolute;
@@ -1197,5 +1170,9 @@ table {
   }
   .hero {
     height: calc(70vh - 85px);
+  }
+  .about-img,
+  .about-content {
+    padding: 12px;
   }
 }
