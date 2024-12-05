@@ -1151,6 +1151,25 @@ table {
 }
 
 @media only screen and (max-width: 541px) {
+  .logo {
+    height: 38px;
+  }
+  .navbar {
+    display: none;
+    position: absolute;
+    top: 75px;
+    left: 0;
+    min-height: calc(100vh - 76px);
+    max-height: calc(100vh - 76px);
+    background-color: #ffffff;
+    overflow: hidden;
+    overflow-y: auto;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    z-index: 99;
+  }
   .service-cards {
     flex: 0 0 100%;
     max-width: 100%;
